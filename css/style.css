@@ -15,7 +15,7 @@
 }
 
 .position-static {
-    position: fixed;
+    position: absolute;
     left: 0px;
     right: 0px;    
 }
@@ -32,7 +32,7 @@
 .advice-alert{
     margin-top: 273px;
     width: 100%;
-    color: red;
+    color: orangered;
     font-size: 30px;
     text-decoration: underline;
     
