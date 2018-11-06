@@ -1,11 +1,11 @@
 /* General */
-
+/* REPENSAR SI ESTO ESTA BIEN COMO ESTAN ORGANIZADAS LAS CLASES */
 
 .text-center {
     text-align: center;
     color: blue;
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 200;
     text-decoration: underline;
     text-shadow: 5px 5px 5px grey;
     border: 2px solid black;
@@ -20,14 +20,11 @@
     right: 0px;    
 }
 
-
-
 .body{
     background-color: skyblue;
     background-image: url("D:/Varios/Imagenes/Ciencias de la Atmósfera/140.jpg");
     
 }
-
 
 .advice-alert{
     margin-top: 273px;
@@ -35,9 +32,9 @@
     color: orangered;
     font-size: 30px;
     text-decoration: underline;
-    
+    border: 2px solid red;
+    border-radius: 8px;    
 }
-
 
 .animation-alert{
     animation-name: colorchange;
@@ -81,17 +78,13 @@
     float: left;
 }
 
-
 .nefo{
     width: 600px;
     
 }
 
-
 .radar{
     width: 1200px;
-    
-    
      
 }
 
@@ -101,7 +94,6 @@
 
 .opacity-image{
     opacity: 0.5;
-
 }
 
 /* .gradient-color{
@@ -118,7 +110,8 @@
 
 .text-footer{
     font-size: 40px;
-    border: 2px solid black;
+    border: 4px solid tomato;
+    border-radius: 15px;
     margin: 0 auto;
     background-color: red;
     padding: 80px;
@@ -126,3 +119,16 @@
 }
 
 
+.aside-section {
+    width: 28%;
+    height: 500px;
+    background-color:white;
+    float: right;
+    margin-top: 340px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.main-sectopm {
+    width: 70%;
+}
