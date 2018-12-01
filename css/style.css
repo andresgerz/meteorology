@@ -1,3 +1,44 @@
+/* Reset CSS */
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,
+fieldset,blockquote,header,footer,section,aside,nav,div,a{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th, caption{
+  font-weight: normal;
+  text-align: left;
+}
+
+ol{
+  margin-left: 1.4em;
+  list-style: decimal;
+}
+
+ul{
+  margin-left: 1.4em;
+  list-style: square;
+}
+
+img, fieldset{
+  border: 0;
+}
+
+q:before, q:after{
+  content: '';
+}
+
+/* ================================================================================================================= */
+
+
 /* General */
 /* REPENSAR SI ESTO ESTA BIEN COMO ESTAN ORGANIZADAS LAS CLASES */
 
@@ -27,7 +68,7 @@
 }
 
 .advice-alert{
-    margin-top: 273px;
+    margin-top: 0;
     width: 100%;
     color: orangered;
     font-size: 30px;
@@ -69,7 +110,7 @@
 }
 
 .images-wrapper {
-    margin: 340px auto 0;
+    margin: 34px;
     width: 1200px;
 
 }
@@ -132,3 +173,18 @@
 .main-sectopm {
     width: 70%;
 }
+
+/* img.radar{ */
+    /* } */
+
+.figure img{
+    border: 10px solid green;
+}
+
+.figure p{
+    background-color: slategray;
+    /* margin: 0 0 0 0; */
+    /* border: 12px dashed orangered; */
+    text-align: center;
+}
+
