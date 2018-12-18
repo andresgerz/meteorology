@@ -62,27 +62,26 @@ q:before, q:after{
 }
 
 .body{
-    background-color: skyblue;
-    background-image: url("D:/Varios/Imagenes/Ciencias de la Atmósfera/140.jpg");
-    
+    background-color: olivedrab;        
 }
 
 .advice-alert{
     margin-top: 0;
-    width: 100%;
+    width: 100vw;
     color: orangered;
-    font-size: 30px;
+    font-size: 1.6vw;
+    padding: 0.7vw;
     text-decoration: underline;
-    border: 2px solid red;
-    border-radius: 8px;    
+    border: 0.2vw solid red;
+    border-radius: 1vw;    
 }
 
 .animation-alert{
     animation-name: colorchange;
     animation-duration: 5s;
     animation-direction: initial;
-    height: 40px;
-    width: 0px;
+    height: 3vh;
+    width: 100vw;
     background-color: sandybrown;
     animation-iteration-count: infinite;
     -webkit-animation-name: colorchange;
@@ -125,7 +124,7 @@ q:before, q:after{
 }
 
 .radar{
-    width: 1200px;
+    width: 90vw;
      
 }
 
@@ -188,3 +187,27 @@ q:before, q:after{
     text-align: center;
 }
 
+#banner{
+    margin: 25vh 0 0 25vw;
+    padding: 3vw;
+    width: 15vw;
+    height: 15vh;
+    position: absolute;
+    background-color: red;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#banner #close{
+    margin: -5vh -2.5vw;
+
+}
+
+#close{
+    width: 1.5vw;
+    border: 0.1vw solid black;
+    float: right;
+    
+}

@@ -30,3 +30,18 @@ function prev(){
   }
   slider.scr=images[num];
 }
+
+
+$(document).ready(function(){
+  
+  // var w=document.getElementById("close");
+  // w.addEventListener("click", close_banner, false);
+  
+  document.getElementById("close").addEventListener("click", close_banner, false);
+});
+
+
+
+function close_banner(){
+  $("#banner").remove();
+}
