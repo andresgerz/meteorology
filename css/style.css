@@ -42,6 +42,26 @@ q:before, q:after{
 /* General */
 /* REPENSAR SI ESTO ESTA BIEN COMO ESTAN ORGANIZADAS LAS CLASES */
 
+nav{
+    position: relative;
+    top: 9vh;
+    width: 90vw;
+    margin: auto;
+    background: tan;
+    padding: 0.5vw;
+}
+
+
+header{
+    text-align: center;
+    font-size: 8vh;
+}
+
+#nav-over{
+    position: relative;
+    top: 10vh;
+}
+
 .text-center {
     text-align: center;
     color: blue;
@@ -55,14 +75,14 @@ q:before, q:after{
     margin: 0;
 }
 
-.position-static {
-    position: absolute;
+.position-fixed{
+    position: fixed;
     left: 0px;
     right: 0px;    
 }
 
 .body{
-    background-color: olivedrab;        
+    background-color: aqua;        
 }
 
 .advice-alert{
@@ -210,4 +230,8 @@ q:before, q:after{
     border: 0.1vw solid black;
     float: right;
     
+}
+
+a{
+    text-decoration: none;
 }

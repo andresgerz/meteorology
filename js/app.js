@@ -3,7 +3,8 @@ console.log('Hola Matt Damon!');
 
 // I create an array 
 var images=["http://estaticos.smn.gob.ar/vmsr/goes16/nefo_00_24.jpg" ,
-"http://estaticos.smn.gob.ar/vmsr/goes16/mtoparg_24.jpg"
+"http://estaticos.smn.gob.ar/vmsr/goes16/mtoparg_24.jpg", "http://estaticos.smn.gob.ar/vmsr/goes16/mc02arg_24.jpg", 
+"http://estaticos.smn.gob.ar/vmsr/goes16/mv09arg_24.jpg"
 ]
 
 
