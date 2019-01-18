@@ -38,7 +38,10 @@ $(document).ready(function(){
   // var w=document.getElementById("close");
   // w.addEventListener("click", close_banner, false);
   
-  document.getElementById("close").addEventListener("click", close_banner, false);
+  var closeElement = document.getElementById("close");
+  if (closeElement != null) {
+    closeElement.addEventListener("click", close_banner, false)
+  }
 });
 
 
@@ -46,3 +49,6 @@ $(document).ready(function(){
 function close_banner(){
   $("#banner").remove();
 }
+
+document.getElementById("date-chaco").innerHTML = Date();
+console.log("hours");

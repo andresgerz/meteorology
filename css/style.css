@@ -49,6 +49,7 @@ nav{
     margin: auto;
     background: tan;
     padding: 0.5vw;
+    display: inline-block;
 }
 
 
