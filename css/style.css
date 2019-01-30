@@ -41,17 +41,53 @@ q:before, q:after{
 
 /* General */
 /* REPENSAR SI ESTO ESTA BIEN COMO ESTAN ORGANIZADAS LAS CLASES */
+.body{
+    background-color: lightblue;        
+}
 
-nav{
-    position: relative;
-    top: 9vh;
+nav{font-size: 1.4vw;
     width: 90vw;
-    margin: auto;
+    margin: 3.5vw 0 0 5vw;
     background: tan;
     padding: 0.5vw;
     display: inline-block;
+    border-radius: 1vw;
+    border: 0.05vw solid black;
 }
 
+/* nav p{
+    float: left;
+} */
+
+#nav-provinzes{
+    width: 30vw;
+    border: 0.2vw dotted red;
+    float: left;
+}
+
+#date-argentina{
+    width: 20vw;
+    border: 0.1vw solid rebeccapurple;
+    font-weight: bold;
+    text-align: center;
+    background: skyblue;
+    border-radius: 1vw; 
+}
+
+#date-argentina p{
+    float: left;
+        
+}
+
+#nav-provinzes, #clock, #date-today{
+    float: left;
+    border: 0.2vw solid blue;
+} 
+
+nav button{
+    border-radius: 1vw;
+    font-size: 1.2vw;
+}
 
 header{
     text-align: center;
@@ -82,9 +118,6 @@ header{
     right: 0px;    
 }
 
-.body{
-    background-color: aqua;        
-}
 
 .advice-alert{
     margin-top: 0;
@@ -183,11 +216,17 @@ header{
 .aside-section {
     width: 28%;
     height: 500px;
-    background-color:white;
+    background-color:greenyellow;
     float: right;
     margin-top: 340px;
     border: 2px solid black;
     border-radius: 30px;
+}
+
+#timer{
+    font-size: 2vw;
+    background: black;
+    color: white;
 }
 
 .main-sectopm {
@@ -235,4 +274,11 @@ header{
 
 a{
     text-decoration: none;
+}
+
+
+/* Iframes */
+
+#production-chaco{
+    align: right;
 }

@@ -6,20 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meteorology</title>
     <link rel="stylesheet" style="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </head>
 <body>
+    <div class="advice-alert position-fixed animation-alert"><a href="images/beakman.gif"> Alert! Achtung!</a>
+    </div>
 
-    <nav><p><a href="Meteorology.html">Argentina</a> <a href="meteorology-chaco.html">Chaco</a> </p></nav>
+    <nav><p><a href="Meteorology.html"> <button>Argentina</button></a> <a href="meteorology-chaco.html"><button>Chaco</button></a> </p>
+        <div id="date-argentina">
+            <p id="day"></p>
+            <p>/</p>
+            <p id="month"></p>
+            <p>/</p>
+            <p id="year"></p>
+            <p>|</p>
+            <p id="hour"></p>
+            <p>:</p>
+            <p id="minute"></p>
+            <p>:</p>
+            <p id="second"></p>
+        </div></nav>
     <div id="nav-over">
-        <header>Ciudad Autonoma de Buenos Aires</header>
+        <header>Gran Buenos Aires</header>
         <section>
-            <img src="http://estaticos.smn.gob.ar/intra/vmsr/radar/CMAX_RMA2_ZH_2_12.png">
+            <img src="http://portalweb.cammesa.com/image.aspx?imagenGrafico=/_layouts/IMAGES/Portal/Charts/DemandaReal/DemandaArea5Min_0426.png&pfdrid_c=true">
+            <img id="radar-bs-as" src="">
+            <!-- <embed src="http://weather.uwyo.edu/upperair/images/2019012612.87576.stuve.parc.pdf" type="application/pdf" width="1150" height="1000"> -->
         </section>
 
     </div>
-    
 
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
 
 </body>
+
+
 </html>

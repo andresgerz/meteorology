@@ -10,24 +10,39 @@
 
 </head>
 <body class="body">
-    <div class="advice-alert position-fixed animation-alert"><a href="C:/Users/mellisos/Desktop/Programming/HTML/Meteorology/Images/beakman.gif">Alert! Achtung!</a></div>
-    <nav><p><a href="Meteorology.html">Argentina</a> <a href="meteorology-caba.html"> CABA</a> </p></nav>
+    <div class="advice-alert position-fixed animation-alert"><a href="images/beakman.gif">Alert! Achtung!</a></div>
+    <nav><p><a href="Meteorology.html"><button>Argentina</button></a> <a href="meteorology-caba.html"><button>GBA</button></a> </p><div id="date-argentina">
+        <p id="day"></p>
+        <p>/</p>
+        <p id="month"></p>
+        <p>/</p>
+        <p id="year"></p>
+        <p>|</p>
+        <p id="hour"></p>
+        <p>:</p>
+        <p id="minute"></p>
+        <p>:</p>
+        <p id="second"></p>
+    </div></nav>
     
     <div id="nav-over">
 
-        <header>Chaco <p id="date-chaco"></p> </header>
+        <header>Chaco</header>
         <section>
             <img src="http://portalweb.cammesa.com/image.aspx?imagenGrafico=/_layouts/IMAGES/Portal/Charts/DemandaReal/Dem_0117.png&pfdrid_c=true">
-            <iframe src="http://clima.produccion.chaco.gov.ar/" width="700" height="600" frameborder="0"></iframe>
+            <!-- <iframe id="production-chaco"src="http://clima.produccion.chaco.gov.ar/" width="500" height="500" frameborder="0"></iframe> -->
 
         </section>
-        <img src="http://estaticos.smn.gob.ar/vmsr/goes16/mtopnorte_24.jpg">
-        <img src="http://estaticos.smn.gob.ar/vmsr/goes16/mc02norte_24.jpg">
-        <iframe src="http://www.starnet.iag.usp.br/index.php?lan=en" width="500" height="500" frameborder="0"></iframe>
-        <img src="http://weather.uwyo.edu/upperair/images/2019011712.87155.stuve.parc.pdf">
+        <img id="cloudy-tops" src="">
+        <img id="visible-chaco" src="">
+        <iframe src="http://www.starnet.iag.usp.br/index.php?lan=en" width="750" height="700" frameborder="0"></iframe>
+    <!-- <embed src="http://weather.uwyo.edu/upperair/images/2019012612.87155.stuve.parc.pdf" type="application/pdf" width="1150" height="890"> -->
 
     </div>
-
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

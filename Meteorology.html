@@ -5,21 +5,36 @@
     <title>Meteorology</title>
 
     <link href="css/style.css" type="text/css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
 </head>
 <body class="body">
 
     <!-- <header class="text-center position-static image-text">Meteorology Today
-    </header> -->
-    <div class="advice-alert position-fixed animation-alert"><a href="C:/Users/mellisos/Desktop/Programming/HTML/Meteorology/Images/beakman.gif">Alert! Achtung!</a>
+    </header> -->                                                              
+    <div class="advice-alert position-fixed animation-alert"><a href="images/beakman.gif"> Alert! Achtung!</a>
     </div>
 
-    <nav> <p>Provincias:  <a href="meteorology-chaco.html">Chaco</a>  <a href="meteorology-caba.html">CABA</a> </p></nav>
+    <nav> <p id="nav-provinzes">Provincias:  <a href="meteorology-chaco.html"><button>Chaco</button></a>  <a href="meteorology-caba.html"><button>GBA</button></a> </p>
+        <div id="date-argentina">
+            <div id="date-today">
+                <p id="day"></p>
+                <p>/</p>
+                <p id="month"></p>
+                <p>/</p>
+                <p id="year"></p>
+            </div>
+            <div id="clock">
+                <p id="hour"></p>
+                <p>:</p>
+                <p id="minute"></p>
+                <p>:</p>
+                <p id="second"></p>
+            </div>
+    </div></nav>
     <div id="nav-over">
 
-        <header>Argentina</header>
+        <header id="tempo">Argentina</header>
         <div id="banner">
             Banner test
             <p id="close">x</p>
@@ -27,8 +42,8 @@
 
         <section class="main-section same-line">
             <div class="images-wrapper">
-                <img src="http://portalweb.cammesa.com/image.aspx?imagenGrafico=/_layouts/images/Portal/Charts/DemandaReal/DemandaArea5Min_1002.png&pfdrid_c=true">
-                <img src="http://portalweb.cammesa.com/image.aspx?imagenGrafico=/_layouts/images/Portal/Charts/Temperaturas/TemperaturaArea_1002.png&pfdrid_c=true">
+                <img src="http://portalweb.cammesa.com/image.aspx?imagenGrafico=/_layouts/images/Portal/Charts/DemandaReal/DemandaArea5Min_1002.png&pfdrid_c=true" width="700" height="300">
+                <img src="http://portalweb.cammesa.com/image.aspx?imagenGrafico=/_layouts/images/Portal/Charts/Temperaturas/TemperaturaArea_1002.png&pfdrid_c=true" width="400" height="200">
                 <br>
                 <button onclick="prev()">Prev</button>
                     <img id="slider" src="http://estaticos.smn.gob.ar/vmsr/goes16/nefo_00_24.jpg" 
@@ -44,17 +59,20 @@
 
                     <p>This is an image by the SMN</p>
                 </div>
-            
-            <iframe src="http://www.starnet.iag.usp.br/index.php?lan=en" width="1000" height="500" frameborder="0"></iframe>
+                
+            <iframe src="http://www.sinarame.gob.ar/" width="1000" height="800" frameborder="0"></iframe>
+            <img id="radars-red" src="">
+            <iframe src="http://www.starnet.iag.usp.br/index.php?lan=en" width="600" height="1100" frameborder="0"></iframe>
             <iframe src="http://climar.cima.fcen.uba.ar/MONITOREO/mapa/" width="500" height="500" frameborder="0"></iframe>
+            <img src="https://services.swpc.noaa.gov/images/swx-overview-large.gif">
             <iframe src="https://weather.msfc.nasa.gov/cgi-bin/sportPublishData.pl?dataset=goeseastabifulldisk&product=11p20um" width="1200" height="1300" frameborder="0"></iframe>    
-
+            <iframe src="http://contenidos.inpres.gob.ar/sismologia/xultimos" frameborder="0" width="800" height="800"></iframe>
             </div>
         </section>
 
         <aside class="aside-section">
-            ATENTION!!
-            <iframe src="" frameborder="0"></iframe>
+            <header>Events</header>
+            <div id="timer"></div>
         </aside>
 
         <footer class="footer-section same-line">          
@@ -62,6 +80,10 @@
         </footer>
     </div>
 
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/app.js"></script>
 
 </body>
